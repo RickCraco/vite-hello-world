@@ -1,18 +1,14 @@
 <template>
   <div>
-    <h1>{{ titolo }}</h1>
+    <h1><AppTitle/></h1>
   </div>
 </template>
 
 <script>
+import AppTitle from './components/AppTitle.vue';
   export default {
-    data(){
-      return {
-        titolo: 'La mia prima app con Vite'
-      }
-    },
-    methods:{
-
+    components: {
+      AppTitle,
     }
   }
 </script>
