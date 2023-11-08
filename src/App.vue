@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1><AppTitle/></h1>
-  </div>
+  <AppTitle/>
 </template>
 
 <script>
