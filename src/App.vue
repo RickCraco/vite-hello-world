@@ -10,6 +10,12 @@ import AppHero from './components/AppHero.vue';
     components: {
       AppTitle,
       AppHero
+    },
+    data(){
+      return {
+      }
+    },
+    methods: {
     }
   }
 </script>
